@@ -1,1 +1,150 @@
 /* место для вашего кода */
+body{
+    background-color: white;
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 148px 1fr;
+    align-items: center;
+    margin: 92px 24px 96px 24px;
+}
+
+
+.header__menu {
+    width: 391.5px;
+}
+
+.header__links-list {
+    list-style: circle;
+    display: flex;
+    flex-direction: row;
+    gap: 31.5px;
+}
+
+
+.header__links-list-item_no-bullit{
+    list-style: none;
+}
+
+.header__link_active{
+
+}
+
+.header__link{
+
+}
+
+.header__links-list-item{
+
+}
+
+.header__logo{
+    display: block;
+    width: 148px;
+
+}
+
+.header__logo-image{
+    width: 100%;
+}
+
+.address{
+justify-self: end;
+font-style: normal;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.3px;
+letter-spacing: 0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+
+
+.cover {
+    position: relative;
+    width: 1100px;
+    height: 757px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover; 
+    background-position: center center; 
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.cover__title {
+    margin: 165px 50px 237px 50px ;  
+}
+
+.title {
+    font-size: 100px;
+    letter-spacing: 30px;
+    text-transform:uppercase;
+    color: white;
+    line-height: 118.3px;
+}
+    
+
+.aligned-text_center{
+    text-align: center;
+}
+
+.aligned-text_right{
+    text-align: end;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+    letter-spacing: normal;
+}
+
+.cover__description {
+    position: absolute;
+    top: 667px;
+    left: 78px;
+}
+
+.cover__description-text {
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 19px;
+}
+
+.bet-button {
+    position: absolute;
+    top: 655px;
+    left: 794px;
+    padding: 12px 32px;
+    border: 1px white solid;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+
+}
